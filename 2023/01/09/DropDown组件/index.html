@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://zaoyu0x0.github.io/img/BocchiTheRock01.png">
 <meta property="article:published_time" content="2023-01-09T13:50:11.658Z">
-<meta property="article:modified_time" content="2024-03-29T18:04:53.198Z">
+<meta property="article:modified_time" content="2024-03-30T06:55:48.360Z">
 <meta property="article:author" content="Zaoyu">
 <meta property="article:tag" content="UGUI">
 <meta name="twitter:card" content="summary">
@@ -53,7 +53,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2024-03-30 02:04:53'
+  postUpdate: '2024-03-30 14:55:48'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -142,8 +142,8 @@
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/846.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/BocchiTheRock01.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">早羽</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Unity DropDown组件</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-01-09T13:50:11.658Z" title="发表于 2023-01-09 21:50:11">2023-01-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-03-29T18:04:53.198Z" title="更新于 2024-03-30 02:04:53">2024-03-30</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Unity/">/Unity</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Unity DropDown组件"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>前段时间遇到了下拉栏的制作，之前没有用过DropDown组件，相关的组件属性以及api都不熟悉，趁此记录一下。</p>
-<h2 id="组件item"><a href="#组件item" class="headerlink" title="组件item"></a>组件item</h2><p><img src="/2023/01/09/DropDown%E7%BB%84%E4%BB%B6/File\MyBlog\blog\source_posts\DropDown组件\Dropdown01.png" alt="图片"></p>
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/846.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/BocchiTheRock01.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">早羽</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Unity DropDown组件</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-01-09T13:50:11.658Z" title="发表于 2023-01-09 21:50:11">2023-01-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-03-30T06:55:48.360Z" title="更新于 2024-03-30 14:55:48">2024-03-30</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Unity/">/Unity</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Unity DropDown组件"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>前段时间遇到了下拉栏的制作，之前没有用过DropDown组件，相关的组件属性以及api都不熟悉，趁此记录一下。</p>
+<h2 id="组件item"><a href="#组件item" class="headerlink" title="组件item"></a>组件item</h2><p><img src="/2023/01/09/DropDown%E7%BB%84%E4%BB%B6/01/09/DropDown%E7%BB%84%E4%BB%B6/Dropdown01.png" alt="图片"></p>
 <table>
 <thead>
 <tr>
@@ -184,7 +184,7 @@
 <td>滚动栏（超出模板高度或宽度启用）</td>
 </tr>
 </tbody></table>
-<h2 id="组件属性"><a href="#组件属性" class="headerlink" title="组件属性"></a>组件属性</h2><p><img src="/2023/01/09/DropDown%E7%BB%84%E4%BB%B6/File\MyBlog\blog\source_posts\DropDown组件\Dropdown02.png" alt="图片"></p>
+<h2 id="组件属性"><a href="#组件属性" class="headerlink" title="组件属性"></a>组件属性</h2><p><img src="/2023/01/09/DropDown%E7%BB%84%E4%BB%B6/01/09/DropDown%E7%BB%84%E4%BB%B6/Dropdown02.png" alt="图片"></p>
 <table>
 <thead>
 <tr>
